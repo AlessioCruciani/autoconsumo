@@ -1,0 +1,211 @@
+
+.chat-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chat {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.question {
+  font-weight: bold;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.answer {
+  color: #555;
+  margin-bottom: 50px;
+  text-align: right;
+  font-size: 15px;
+}
+.hr-with-text {
+      text-align: center;
+      position: relative;
+    }
+    
+    .hr-with-text::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 50%;
+      border-top: 1px solid black;
+    }
+    
+    .hr-with-text::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 50%;
+      border-top: 1px solid black;
+    }
+    
+    .hr-with-text span {
+      background-color: white;
+      padding: 0 10px;
+      position: relative;
+      top: -10px;
+    }
+    .buttoninserimentofaq {
+        background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 80%;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4
+    }
+    
+    .inputFormFaq {
+        background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4;
+        height: 100px;
+    }
+    .inputFormAziendeRigaSingola {
+        background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4;
+        
+    }
+    
+    .inputFormAziendeRigaDivisa1 {
+         background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4;
+        margin-right: 20px;
+    }
+    
+    .inputFormAziendeRigaDivisa2 {
+         background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4;
+        margin-left: 20px;
+        
+    }   
+    
+    
+    .inputFormFaq:focus {
+        border-color: #901003;
+        
+    }
+    
+    .prova1234{
+        width: 50%;
+    }
+    
+    
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.box-funzioni {
+  flex: 1;
+  margin: 20px;
+  border:  2px solid #901003;
+  padding: 20px;
+  border-radius: 15px;
+}
+.box-aggiungi-aziende {
+  flex: 1;
+  width: 50%;
+}
+
+.box-funzioni a {
+    color: black;
+}
+
+.box-funzioni h2{
+    color: black;
+    text-align: center;
+}
+
+.box-funzioni h3{
+    color: black;
+    text-align: center;
+}
+
+.table-gestione-aziende {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.table-gestione-aziende th, td, tr {
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.table-gestione-aziende th, tr {
+    border-bottom: 2px solid #901003;
+}
+
+.table-gestione-aziende td {
+    border-bottom: 1px solid #901003;
+}
+
+.contenitore-funzioni{
+    display: flex;
+    width: 100%;
+}
